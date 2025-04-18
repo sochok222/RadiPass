@@ -1,0 +1,28 @@
+    /// WORKING CODE TO LOAD DECRYPTED DATABASE TO TEMPORARY RAM FILE!!!!!!!!!!!!!!!!!!!!! HELL YEAH ///
+
+    QString dbPath = "C:/Users/sanya/AppData/Roaming/PasswordManager/Database.db";
+
+
+    QFile file(dbPath);
+
+    file.open(QIODevice::ReadWrite);
+    QByteArray data = file.readAll();
+
+    file.close();
+
+
+    QFile *f;
+    f = new QFile("file:memdb1?mode=memory&cache=shared");
+    f->open(QIODevice::WriteOnly);
+    f->write(data);
+    f->close();
+    QSqlDatabase db;
+    db = QSqlDatabase::addDatabase("QSQLITE");
+    db.setDatabaseName("file:memdb1?mode=memory&cache=shared");
+    db.open();
+    QSqlQuery query(db);
+    query.exec("SELECT * FROM login");
+    while(query.next())
+    {
+        qDebug() << query.value(0).toString();
+    }
