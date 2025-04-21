@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>552</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>30</y>
+      <width>641</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>151</width>
+      <height>361</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="newDatabaseButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>31</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DocumentNew"/>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openDatabaseButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>31</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DocumentOpen"/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="focusPolicy">
+     <enum>Qt::FocusPolicy::NoFocus</enum>
+    </property>
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionClose"/>
+   </widget>
+   <widget class="QMenu" name="menuEntry">
+    <property name="title">
+     <string>Entry</string>
+    </property>
+    <addaction name="actionCopy_User_Name"/>
+    <addaction name="actionCopy_Password"/>
+    <addaction name="actionUrl"/>
+    <addaction name="separator"/>
+    <addaction name="actionAdd_Entry"/>
+    <addaction name="actionEdit_Entry"/>
+    <addaction name="actionDuplicate_Entry"/>
+    <addaction name="actionDelete_Entry"/>
+   </widget>
+   <widget class="QMenu" name="menuViev">
+    <property name="title">
+     <string>Viev</string>
+    </property>
+    <addaction name="actionChange_Language"/>
+    <addaction name="separator"/>
+    <addaction name="actionChange_color_scheme"/>
+    <addaction name="actionShow_Toolbar"/>
+    <addaction name="separator"/>
+    <addaction name="actionConfigure_Columns"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEntry"/>
+   <addaction name="menuViev"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNew">
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </action>
+  <action name="actionCopy_User_Name">
+   <property name="text">
+    <string>Copy User Name</string>
+   </property>
+  </action>
+  <action name="actionCopy_Password">
+   <property name="text">
+    <string>Copy Password</string>
+   </property>
+  </action>
+  <action name="actionUrl">
+   <property name="text">
+    <string>Url</string>
+   </property>
+  </action>
+  <action name="actionAdd_Entry">
+   <property name="text">
+    <string>Add Entry</string>
+   </property>
+  </action>
+  <action name="actionEdit_Entry">
+   <property name="text">
+    <string>Edit Entry</string>
+   </property>
+  </action>
+  <action name="actionDelete_Entry">
+   <property name="text">
+    <string>Delete Entry</string>
+   </property>
+  </action>
+  <action name="actionDuplicate_Entry">
+   <property name="text">
+    <string>Duplicate Entry</string>
+   </property>
+  </action>
+  <action name="actionChange_Language">
+   <property name="text">
+    <string>Change Language</string>
+   </property>
+  </action>
+  <action name="actionChange_color_scheme">
+   <property name="text">
+    <string>Change color scheme</string>
+   </property>
+  </action>
+  <action name="actionShow_Toolbar">
+   <property name="text">
+    <string>Show Toolbar</string>
+   </property>
+  </action>
+  <action name="actionConfigure_Columns">
+   <property name="text">
+    <string>Configure Columns</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

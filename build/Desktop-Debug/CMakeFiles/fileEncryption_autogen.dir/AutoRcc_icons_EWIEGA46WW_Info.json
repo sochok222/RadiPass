@@ -1,0 +1,36 @@
+{
+	"BUILD_DIR" : "C:/programming/c++/qt/fileEncryption/build/Desktop-Debug/fileEncryption_autogen",
+	"CMAKE_BINARY_DIR" : "C:/programming/c++/qt/fileEncryption/build/Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/programming/c++/qt/fileEncryption/build/Desktop-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/programming/c++/qt/fileEncryption",
+	"CMAKE_SOURCE_DIR" : "C:/programming/c++/qt/fileEncryption",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "C:/programming/c++/qt/fileEncryption/build/Desktop-Debug/fileEncryption_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/programming/c++/qt/fileEncryption/icons/openUrl.png",
+		"C:/programming/c++/qt/fileEncryption/icons/open.png",
+		"C:/programming/c++/qt/fileEncryption/icons/add.png",
+		"C:/programming/c++/qt/fileEncryption/icons/user.png",
+		"C:/programming/c++/qt/fileEncryption/icons/edit.png",
+		"C:/programming/c++/qt/fileEncryption/icons/createNew.png",
+		"C:/programming/c++/qt/fileEncryption/icons/key.png",
+		"C:/programming/c++/qt/fileEncryption/icons/copy.png",
+		"C:/programming/c++/qt/fileEncryption/icons/trash.png",
+		"C:/programming/c++/qt/fileEncryption/icons/url.png",
+		"C:/programming/c++/qt/fileEncryption/icons/setting.png",
+		"C:/programming/c++/qt/fileEncryption/icons/close.png"
+	],
+	"LOCK_FILE" : "C:/programming/c++/qt/fileEncryption/build/Desktop-Debug/CMakeFiles/fileEncryption_autogen.dir/AutoRcc_icons_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "icons" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_icons.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.8.2/msvc2022_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/programming/c++/qt/fileEncryption/build/Desktop-Debug/CMakeFiles/fileEncryption_autogen.dir/AutoRcc_icons_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/programming/c++/qt/fileEncryption/icons.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

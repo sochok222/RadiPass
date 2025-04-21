@@ -1,0 +1,8 @@
+C:/programming/c++/qt/fileEncryption/build/Desktop-Debug/CMakeFiles/fileEncryption.dir
+C:/programming/c++/qt/fileEncryption/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+C:/programming/c++/qt/fileEncryption/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+C:/programming/c++/qt/fileEncryption/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+C:/programming/c++/qt/fileEncryption/build/Desktop-Debug/CMakeFiles/install.dir
+C:/programming/c++/qt/fileEncryption/build/Desktop-Debug/CMakeFiles/install/local.dir
+C:/programming/c++/qt/fileEncryption/build/Desktop-Debug/CMakeFiles/fileEncryption_autogen_timestamp_deps.dir
+C:/programming/c++/qt/fileEncryption/build/Desktop-Debug/CMakeFiles/fileEncryption_autogen.dir
